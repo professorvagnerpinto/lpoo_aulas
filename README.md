@@ -1,3 +1,3 @@
-# lpoo_aulas
+# lpoo_objetivo1_aulas
 
-Aulas de LPOO 2022-1(2021-1)
+Objetivo1-Aulas 2022-1(2021-1)
