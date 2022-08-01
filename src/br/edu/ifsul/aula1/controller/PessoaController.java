@@ -31,7 +31,7 @@ public class PessoaController {
         System.out.println(pessoas);
 
         //ordenação da List
-        System.out.println("\nList ordena:");
+        System.out.println("\nList ordenada:");
         pessoas.sort(Comparator.comparing(Pessoa::getNome));
         System.out.println(pessoas);
 
@@ -49,7 +49,7 @@ public class PessoaController {
 
         //pesquisando List pelo método filter
         System.out.println();
-        System.out.println("List ordenada por filter:");
+        System.out.println("Pesquisando List pelo método filter:");
         Pessoa pessoafind = pessoas.stream()
             .filter(p -> p.getNome().equals("Rafael"))
             .findAny()
